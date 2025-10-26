@@ -4,7 +4,7 @@ The pretrained model 'ResNet50' is retrained to predict people age from their im
 ## Details
 * The model is stored in Hugging Face, use the following link to download it:
 
-www
+https://huggingface.co/AntonioArteaga7/Face-Regressor/resolve/main/model_face.h5
 
 * In folder "notebooks" are the Jupyter Notebooks used to train the model and the Jupyter Notebook "make_regression_predictions.ipynb" used to make predictions with the model. This model should be downloaded and saved in folder 'models' as 'model_face.h5'.
 * In folder "test" are some images used to test the model, other images can be also used.
@@ -29,4 +29,4 @@ After running "make_regression_predictions.ipynb", the following results were ob
 Mean Absolute Error (MAE): 10.5, Mean Squared Error (MSE): 243.83 and R^2 Score: 0.15.
 
 ## ♟️ Conclusion
-The MAE (Mean Absolute Error) is acceptable. The performance of the model is related to the dataset quality, pretrained model used (Resnet50), convolutional neuronal network design and batch size of training. Due to limitations in computing power, this model could not be trained better. This model was trained in a core i7 second generation processor with 4GB of RAM memory.
+The MAE (Mean Absolute Error) is acceptable. The performance of the model is related to the dataset quality, pretrained model used (Resnet50), convolutional neuronal network design and batch size of training. Due to limitations in computing power, this model could not be trained better. This model was trained in a core i7 second generation processor with 4GB of RAM memory. In order to improve the model performance, not only the batch size should be increase, but also the dataset quality.
